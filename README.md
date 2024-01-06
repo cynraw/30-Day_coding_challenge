@@ -19,4 +19,14 @@ Playing this discipline game of coding. Its going to be fun.
   - We can use the typedef to define some new shorter name for the structure.
   - This helps in enhancing code readability by allowing the use of a more meaningful name.
   - It also makes a program less lengthy.
-    
+
+## Day 2
+### 6/01/24
+# Arrays
+- Is a variable that can store multiple values in contagious memory locations.
+- Used to store a collection of variables of same type.
+- In C we have to declare an array before using it.
+- Initialization is the process to assign some initial value to the variable.
+- If we initialize an array using an initializer list, we can skip declaring the size of the array as the compiler can automatically deduce the size of the array in these cases.
+- An element is accessed by indexing the array name.
+
