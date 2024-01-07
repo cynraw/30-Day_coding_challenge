@@ -30,3 +30,11 @@ Playing this discipline game of coding. Its going to be fun.
 - If we initialize an array using an initializer list, we can skip declaring the size of the array as the compiler can automatically deduce the size of the array in these cases.
 - An element is accessed by indexing the array name.
 
+## Day 3
+### 7/01/2024
+# Recursion
+- A function that calls itself is known as a recursive function.
+- The technique is known as recursion.
+- The recursion continues until some condition is met.
+- Usually conditional statements are used to prevent infinite loop.
+  
