@@ -36,5 +36,5 @@ Playing this discipline game of coding. Its going to be fun.
 - A function that calls itself is known as a recursive function.
 - The technique is known as recursion.
 - The recursion continues until some condition is met.
-- Usually conditional statements are used to prevent infinite loop.
+- Usually conditional statements, ie if...else ,are used to prevent in finite loop.
   
