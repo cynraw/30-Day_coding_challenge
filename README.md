@@ -40,7 +40,7 @@ Playing this discipline game of coding. Its going to be fun.
 
 ## Day 4
 ### 8/01/24
-# Strings
+# Strings(part 1)
 - Strings are used for storing text or characters.
 - Unlike other programming lamguages, C does not have a string type.
 - Instead, the char type is used to create an array of characters to make a string in C.
