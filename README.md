@@ -31,10 +31,12 @@ Playing this discipline game of coding. Its going to be fun.
 - An element is accessed by indexing the array name.
 
 ## Day 3
-### 7/01/2024
+### 7/01/24
 # Recursion
 - A function that calls itself is known as a recursive function.
 - The technique is known as recursion.
 - The recursion continues until some condition is met.
 - Usually conditional statements, ie if...else ,are used to prevent in finite loop.
-  
+
+## Day 4
+### 8/01/24
