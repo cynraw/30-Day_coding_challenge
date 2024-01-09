@@ -42,7 +42,7 @@ Playing this discipline game of coding. Its going to be fun.
 ### 8/01/24
 # Strings(part 1)
 - Strings in C is an array of characters.
-- Its datatype is always char.
+- Its datatype is always char(in c).
 - Strings are used for storing text or characters.
 - Unlike other programming lamguages, C does not have a string type.
 - Instead, the char type is used to create an array of characters to make a string in C.
