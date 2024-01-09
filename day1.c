@@ -5,7 +5,7 @@
 struct Person {
   char name[50];
   int citNo;
-  float salary;
+  int salary;
 } person1;
 
 int main() {
@@ -20,7 +20,7 @@ int main() {
   // print struct variables
   printf("Name: %s\n", person1.name);
   printf("Citizenship No.: %d\n", person1.citNo);
-  printf("Salary: %.2f", person1.salary);
+  printf("Salary: %d\n", person1.salary);
 
   return 0;
 }
