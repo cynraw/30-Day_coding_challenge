@@ -53,4 +53,10 @@ Playing this discipline game of coding. Its going to be fun.
 # strings(part 2)
 - Operations on strings
 - It includes concatenation, finding length of string, copying string, comparing strings and extracting a portion of a string.
+
+## Day 6
+### 10/01/24
+# Calculator in C
+- Worked on a miniproject, created a calculator in C.
+- used switch control statements to accomplish the project.
   
