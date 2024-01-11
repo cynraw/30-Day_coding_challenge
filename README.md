@@ -63,7 +63,7 @@ Playing this discipline game of coding. Its going to be fun.
 ## Day 7
 ### 11/01/24
 # File Handling in C
-- A file is a sequence of bits used to dtore data permanently in the hard disk.
+- A file is a sequence of bits used to store data permanently in the hard disk.
 - There are two types of files text files(.txt) and binary files (.bin).
 - Binary files are typically compiled text files and are more sequere since they store data in series of o's and 1's.
 - Files enhance easy transfer of data from one machine to another.
