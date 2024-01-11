@@ -59,4 +59,18 @@ Playing this discipline game of coding. Its going to be fun.
 # Calculator in C
 - Worked on a miniproject, created a calculator in C.
 - used switch control statements to accomplish the project.
-  
+
+## Day 7
+### 11/01/24
+# File Handling in C
+- A file is a sequence of bits used to dtore data permanently in the hard disk.
+- There are two types of files text files(.txt) and binary files (.bin).
+- Binary files are typically compiled text files and are more sequere since they store data in series of o's and 1's.
+- Files enhance easy transfer of data from one machine to another.
+- File handling operations include opening a file, creating a file, writing to a file and closing a file.
+- To handle a file you need a file pointer of FILE datatype(defined in stdio header).
+- A file pointer is a variable that stores the address of another variable of file datatype.
+- To create the file variable fopen function is used.
+- fopen("filename", "mode")- creates a file type pointer and returns address stored in the pointer that points to the buffer. 
+- When opening a file, another instance of the file is opened in the RAM(main memory) and the changes made to the buffer file is loaded to the other file in the hard disk.
+- fclose(pointer) - is used to close a file, this leads to deallocation of the dynamic memory that had been reserved for the buffer and the file type variable.
