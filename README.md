@@ -74,3 +74,8 @@ Playing this discipline game of coding. Its going to be fun.
 - fopen("filename", "mode")- creates a file type pointer and returns address stored in the pointer that points to the buffer. 
 - When opening a file, another instance of the file is opened in the RAM(main memory) and the changes made to the buffer file is loaded to the other file in the hard disk.
 - fclose(pointer) - is used to close a file, this leads to deallocation of the dynamic memory that had been reserved for the buffer and the file type variable.
+
+## Day 8
+### 12/01/24
+# 
+//
