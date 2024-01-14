@@ -76,5 +76,37 @@ Playing this discipline game of coding. Its going to be fun.
 
 ## Day 8
 ### 12/01/24
-# 
-//
+# Memory management in c(part 1)
+-Memory management is one of the biggest advantages of C. It is one of the main reasons to use C for programming.
+- Memory management or allocation is the process by which computer programs are assigned to physical or virtual memory space.
+- Memory allocation can be done either before or at the time of program implementation.
+- There are two techniques for memory allocation: static memory allocation and dynamic allocation.
+## Static memory allocation 
+- In this type of allocation, the compiler allocates a fixed amount of memory during compile time and the OS internally uses a data structure known as stack to manage the memory.
+- Stack memory is used to store variables with short life spans within functions. It is a small, temporary storage area that is automatically managed by the compiler.
+- When a function is executed, its associated stack frame is created in stack memory. Stack frames store variables, arguments, and other data associated with the function call.
+- Stack memory is organized in a last-in, first-out (LIFO) manner. The most recent items added to the stack will be removed first.
+- As a result of this feature, stack memory allows for quick allocation and deallocation of memory, making it very efficient when handling function calls and local variables.
+
+## Day 9
+### 13/01/24
+# Memory management in c(part 2)
+## Dynamic memory Allocation
+- In this type of allocation, system memory is managed at runtime.
+- Dynamic memory management in C programming is performed using the malloc(),calloc(),relloc(), and free() functions.
+- This functions are defined in the <stdlib.h> C header file.
+- It uses the heap space of the system memory.
+- Heap memory stores variables that need to be accessed repeatedly or have longer lifespans.
+- In contrast to stack memory, heap memory is not automatically managed by the compiler.
+- Often, heap memory is used for datastructures like linked lists, trees and other dynamically allocated variables because it allows for flexible allocation of memory blocks.
+#### calloc()
+- Dynamically allocates an array of memory blocks of a specific type.
+- Takes two arguments: the number of elements to allocate and the size for each element.
+#### free()
+- Dynamically de-allocates memory at runtime.
+- It takes a single argument: a pointer to the block.
+#### malloc()
+- Allocates a block of memory in the heap, but does not initialize.
+#### realloc()
+- Reallocates a block of memory that was previously  allocated.
+- It takes two arguments : a pointer to the previously allocated block and the new size of the block.
