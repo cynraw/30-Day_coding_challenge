@@ -121,5 +121,5 @@ Playing this discipline game of coding. Its going to be fun.
 
 ## Day 11
 ### 15/01/24
-# collaborative project on strings
+# collaborative project on structures
 - Create a program that defines a structure representing a student, prompting the user to input data for multiple students and displaying the information.
