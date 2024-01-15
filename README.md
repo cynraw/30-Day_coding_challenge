@@ -117,4 +117,9 @@ Playing this discipline game of coding. Its going to be fun.
 - Variable arguments are used by functions in the printf(printf, fprintf etc) family and others to allow a function to be called with a different number of arguments each time, hence the name varargs.
 - I.e You may want to have a function which can take variable number of arguments for example parameters, instead of predefined number parameters.
 - To implement functions using the variable arguments feature, use #include<stdarg.h>
-- To call functions which take a variable number of arguments, ensure there is full prototype with the trailing ellipsis in scope: void err_exit(const char *format, ...); 
+- To call functions which take a variable number of arguments, ensure there is full prototype with the trailing ellipsis in scope: void err_exit(const char *format, ...);
+
+## Day 11
+### 15/01/24
+# collaborative project on strings
+- Create a program that defines a structure representing a student, prompting the user to input data for multiple students and displaying the information.
