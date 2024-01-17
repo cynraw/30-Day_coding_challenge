@@ -123,3 +123,9 @@ Playing this discipline game of coding. Its going to be fun.
 ### 15/01/24
 # collaborative project on structs in c
 - Create a program that defines a structure representing a student, prompting the user to input data for multiple students and displaying the information.
+
+
+## Day 12
+### 16/01/24
+# Task 2
+- Implement a program that uses nested structures, such as a structure representing a point within a structure representing a rectangle, demonstrating hierarchical data organization
