@@ -4,8 +4,8 @@
 // Define Student structure
 struct learner
 {
-    int id;
-    char name[50];
+	int id;
+	char name[50];
     char gender[10];
     float gpa;
 };
@@ -57,8 +57,8 @@ void get_details(struct learner* student)
 void print_details(struct learner student)
 {
     printf("%d\t", student.id);
-    printf("%s\t\t", student.name);   // Adjust width for proper alignment
-    printf("%s\t", student.gender); // Adjust width for proper alignment
+    printf("%s\t\t", student.name);
+    printf("%s\t", student.gender);
     printf("%.2f\n", student.gpa);
 }
 
