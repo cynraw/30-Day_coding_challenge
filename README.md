@@ -129,3 +129,8 @@ Playing this discipline game of coding. Its going to be fun.
 ### 16/01/24
 # Task 2
 - Implement a program that uses nested structures, such as a structure representing a point within a structure representing a rectangle, demonstrating hierarchical data organization
+
+## Day 13
+### 17/01/24
+# Task 3
+-  Explore the concept of self-referential structures by creating a linked list node, allowing the user to add and remove elements from the list.
