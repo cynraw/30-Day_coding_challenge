@@ -1,69 +1,64 @@
 #include <stdio.h>
+#include <string.h>
 
-// Define the structure for student details
-typedef struct {
-	int idNo;
-	char name[100];
-	char gender[10];
-	int units_taken;
-	int grade;
-}Student;
+// Define Student structure
+struct learner
+{
+    int id;
+    char name[50];
+    char gender[10];
+    float gpa;
+};
 
-//Function to input details for a student
-void inputStudentDetails(Student *student){
-	printf("Enter student ID: \n");
-	scanf("%d", &student->idNo);
+// Function prototypes
+void get_details(struct learner* student);
+void print_details(struct learner student);
 
-	printf("Enter student name: \n");
-        scanf("%s", student->name);
+int main()
+{
+    struct learner students[2];
+    int i;
 
-	printf("Enter student gender : \n");
-        scanf("%s", student->gender);
+    // Input and store details of 2 students
+    for (i = 0; i < 2; i++)
+    {
+        printf("Enter details for student %d\n", (i + 1));
+        get_details(&students[i]);
+    }
 
-	printf("Enter units taken by student: \n");
-        scanf("%d", &student->units_taken);
-
-	printf("Enter student grade: \n");
-        scanf("%d", &student->grade);
+    // Print stored details of 2 students
+    printf("\nEntered student details:\n");
+    printf("ID\tNAME\t\t\tGENDER\tGPA\n");
+    printf("-----------------------------------------------\n");
+    for (i = 0; i < 2; i++)
+    {
+        print_details(students[i]);
+    }
+    return 0;
 }
 
-//Function to display details of a student
+// Get student details as input
+void get_details(struct learner* student)
+{
+    printf("\nEnter student ID: ");
+    scanf("%d", &student->id);
 
-void displayStudentDetails(Student *student){
-	printf("Student ID: %d\n", student->idNo);
-	printf("Student Name: %s\n", student->name);
-	printf("Student gender: %s\n", student->gender);
-	printf("Units taken by student : %d\n", student->units_taken);
-	printf("Student mean grade: %d\n", student->grade);
+    printf("Enter name: ");
+    scanf(" %[^\n]%*c", student->name);
+
+    printf("Enter gender: ");
+    scanf(" %[^\n]%*c", student->gender);
+
+    printf("Enter GPA: ");
+    scanf("%f", &student->gpa);
 }
 
-int main(){
-	Student students[5];
-
-	for (int i=0; i<5; i++){
-		inputStudentDetails(&students[i]);
-	}
-
-	int idSearch;
-
-	printf("Enter student ID to search: ");
-	scanf("%d", &idSearch);
-
-	int found = 0;
-	for (int i = 0; i<5; i++){
-		if (students[i].idNo == idSearch){
-			found = 1;
-			displayStudentDetails(&students[i]);
-			break;
-		}
-	}
-
-	if (!found){
-		printf("student with ID %d not found. \n", idSearch);
-	}
-
-	return 0;
+// Print student details
+void print_details(struct learner student)
+{
+    printf("%d\t", student.id);
+    printf("%s\t\t", student.name);   // Adjust width for proper alignment
+    printf("%s\t", student.gender); // Adjust width for proper alignment
+    printf("%.2f\n", student.gpa);
 }
-
-
 
