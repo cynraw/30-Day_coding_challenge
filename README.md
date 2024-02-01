@@ -109,18 +109,15 @@ Code with me
 - To call functions which take a variable number of arguments, ensure there is full prototype with the trailing ellipsis in scope: void err_exit(const char *format, ...);
 
 ## Day 11
-### 15/01/24
 # collaborative project on structs in c
 - Create a program that defines a structure representing a student, prompting the user to input data for multiple students and displaying the information.
 
 
 ## Day 12
-### 16/01/24
 # Task 2
 - Implement a program that uses nested structures, such as a structure representing a point within a structure representing a rectangle, demonstrating hierarchical data organization
 
 ## Day 13
-### 17/01/24
 # Task 3
 -  Explore the concept of self-referential structures by creating a linked list node, allowing the user to add and remove elements from the list.
 
