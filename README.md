@@ -134,3 +134,9 @@ Playing this discipline game of coding. Its going to be fun.
 ### 17/01/24
 # Task 3
 -  Explore the concept of self-referential structures by creating a linked list node, allowing the user to add and remove elements from the list.
+
+# Hash Tables
+- Key value stores.
+- Maps a key to a value, ie an assosiative array.
+- One key can hold may values through chaining, linked lists.
+
