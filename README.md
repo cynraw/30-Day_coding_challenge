@@ -48,13 +48,11 @@ Code with me
 - It includes concatenation, finding length of string, copying string, comparing strings and extracting a portion of a string.
 
 ## Day 6
-### 10/01/24
 # Calculator in C
 - Worked on a miniproject, created a calculator in C.
 - used switch control statements to accomplish the project.
 
 ## Day 7
-### 11/01/24
 # File Handling in C
 - A file is a sequence of bits used to store data permanently in the hard disk.
 - There are two types of files text files(.txt) and binary files (.bin).
@@ -69,7 +67,6 @@ Code with me
 - fclose(pointer) - is used to close a file, this leads to deallocation of the dynamic memory that had been reserved for the buffer and the file type variable.
 
 ## Day 8
-### 12/01/24
 # Memory management in c(part 1)
 -Memory management is one of the biggest advantages of C. It is one of the main reasons to use C for programming.
 - Memory management or allocation is the process by which computer programs are assigned to physical or virtual memory space.
@@ -83,7 +80,6 @@ Code with me
 - As a result of this feature, stack memory allows for quick allocation and deallocation of memory, making it very efficient when handling function calls and local variables.
 
 ## Day 9
-### 13/01/24
 # Memory management in c(part 2)
 ## Dynamic memory Allocation
 - In this type of allocation, system memory is managed at runtime.
@@ -106,7 +102,6 @@ Code with me
 - It takes two arguments : a pointer to the previously allocated block and the new size of the block.
 
 ## Day 10
-### 14/01/24
 # Variable arguments in C
 - Variable arguments are used by functions in the printf(printf, fprintf etc) family and others to allow a function to be called with a different number of arguments each time, hence the name varargs.
 - I.e You may want to have a function which can take variable number of arguments for example parameters, instead of predefined number parameters.
