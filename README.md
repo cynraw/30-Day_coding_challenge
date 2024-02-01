@@ -1,16 +1,14 @@
 # 30-Day_coding_challenge
-Playing this discipline game of coding. Its going to be fun.
+Code with me
 
 # Log summary
 ## Day 0
-### 4/01/24
 # structures
 - Way to group several related variables in one place.
 - Each variable in a structure is known as a member of the structure.
 - Unlike Array, a structure can contain many different data types.
 
 ## Day 1
-### 5/01/24
 # Typedef for structures
 - Typedef keyword is used to define an alias for the already existing datatype.
 - In structures, we have to use the struct keyword along with the structure name to define the variables.
@@ -20,7 +18,6 @@ Playing this discipline game of coding. Its going to be fun.
 - It also makes a program less lengthy.
 
 ## Day 2
-### 6/01/24
 # Arrays
 - Is a variable that can store multiple values in contagious memory locations.
 - Used to store a collection of variables of same type.
@@ -30,7 +27,6 @@ Playing this discipline game of coding. Its going to be fun.
 - An element is accessed by indexing the array name.
 
 ## Day 3
-### 7/01/24
 # Recursion
 - A function that calls itself is known as a recursive function.
 - The technique is known as recursion.
