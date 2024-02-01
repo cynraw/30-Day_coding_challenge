@@ -34,7 +34,6 @@ Code with me
 - Usually conditional statements, ie if...else ,are used to prevent in finite loop.
 
 ## Day 4
-### 8/01/24
 # Strings(part 1)
 - Strings in C is an array of characters.
 - Its datatype is always char(in c).
@@ -44,7 +43,6 @@ Code with me
 - Elements in a string are accessed through indexing, just like in arrays.
 
 ## Day 5
-### 9/01/24
 # strings(part 2)
 - Operations on strings
 - It includes concatenation, finding length of string, copying string, comparing strings and extracting a portion of a string.
