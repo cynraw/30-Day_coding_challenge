@@ -80,7 +80,7 @@ Code with me
 - As a result of this feature, stack memory allows for quick allocation and deallocation of memory, making it very efficient when handling function calls and local variables.
 
 ## Day 9
-# Memory management in c(part 2)
+# Memory management in c
 ## Dynamic memory Allocation
 - In this type of allocation, system memory is managed at runtime.
 - Dynamic memory management in C programming is performed using the malloc(),calloc(),relloc(), and free() functions.
