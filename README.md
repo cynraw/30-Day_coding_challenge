@@ -67,7 +67,7 @@ Code with me
 - fclose(pointer) - is used to close a file, this leads to deallocation of the dynamic memory that had been reserved for the buffer and the file type variable.
 
 ## Day 8
-# Memory management in c(part 1)
+# Memory management in c
 -Memory management is one of the biggest advantages of C. It is one of the main reasons to use C for programming.
 - Memory management or allocation is the process by which computer programs are assigned to physical or virtual memory space.
 - Memory allocation can be done either before or at the time of program implementation.
